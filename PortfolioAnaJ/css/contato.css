@@ -1,0 +1,73 @@
+/*Menu de navegação*/
+.menu-vertical{
+    width: 200px;
+    height: 100vh; /*Tamanho da janela*/
+    position: fixed;
+    background-color: #002480;
+    padding-top: 40px; /*Espaço entre o topo da tela*/
+}
+#perfilcirculo{
+  background-color: #ddd;
+  border-radius: 50%; /*Deixa a imagem circular*/
+  height: 150px;
+  object-fit: cover; /*Corta a imagem para caber no círculo*/
+  width: 150px;
+  margin: 0 auto; /*Centraliza a imagem*/
+}
+#imagemperfil{
+  text-align: center; /*Centraliza a imagem*/
+}
+#nome-logo{
+    color:#65a3ff; /*Cor do texto quando passar o mouse*/
+    text-align: center; /*Centraliza o texto*/
+    font-size: 20px;
+}
+
+.menu-vertical a{ /*Estilizando os links do Menu*/
+    display:block;
+    color: white;
+    padding:15px;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color:#65a3ff; /*Cor do texto quando passar o mouse*/
+    background-color: #0f2764; /*Cor de fundo quando passar o mouse*/
+    border: 2px solid;
+}
+
+/*Estilização de Texto*/
+h1{
+  text-align: center;
+   padding-top: 40px; /*Espaço entre o topo da tela*/  
+}
+p{
+    text-align: center; 
+    font-size: 15px; 
+}
+#introducao{
+  text-align: center; /*Centraliza o texto*/
+  font-size: 18px; /*Tamanho da fonte*/
+}
+#frase{
+  color: #193b91;
+}
+.merriweather-uniquifier {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+/*Página em si*/
+#botao-pagina-inicial{
+    margin: 0 auto;
+}
+#pagina{
+   margin-left: 20%;
+    padding: 20px; /*Espaçamento interno*/
+}
+#botao-pagina-inicial{
+    margin: 0 auto;
+}
